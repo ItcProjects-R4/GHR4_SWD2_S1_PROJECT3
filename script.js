@@ -81,7 +81,3 @@ btnAddTask.addEventListener("click", function (e) {
   }
 });
 
-// to delete tasks we will do the following
-// 1. we need to add event listeners to the trash icons (click)
-// 2. when the icon is clicked we will remove the task from the array
-// 3. update the ui
