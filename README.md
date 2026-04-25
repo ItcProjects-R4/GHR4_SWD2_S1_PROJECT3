@@ -5,9 +5,7 @@ This project helps users manage their daily tasks efficiently with a clean, resp
 
 ---
 
-## 🚀 Live Demo
-
-## 🔗 [Go_ToDo](https://mostafa-younis7.github.io/To-Do-List/)
+## 🚀 Live Demo 🔗 [Go_ToDo](https://mostafa-younis7.github.io/To-Do-List/)
 
 ## 📌 Features
 
