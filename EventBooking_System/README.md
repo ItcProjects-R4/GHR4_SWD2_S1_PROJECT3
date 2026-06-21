@@ -69,13 +69,14 @@ EventBooking is a modern full-stack web application that streamlines the process
 ## 🏗️ System Architecture
 
 ### Architecture Overview
-![System Architecture](./work flow diagrams/architecture_overview.svg)
+![System Architecture](./workflow_diagrams/architecture_overview.svg)
+
 
 ### Booking Workflow
-![Booking Workflow](./work flow diagrams/booking_workflow.svg)
+![Booking Workflow](./workflow_diagrams/booking_workflow.svg)
 
 ### Attendance & Verification Workflow
-![Attendance Workflow](./work flow diagrams/attendance_certificate_workflow.svg)
+![Attendance Workflow](./workflow_diagrams/attendance_certificate_workflow.svg)
 
 ---
 
