@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Remove default input/button styles */
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: fadeIn 0.25s ease forwards;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  nav {
+    padding: 12px 16px !important;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  div[style*="max-width: 900px"],
+  div[style*="max-width: 1100px"],
+  div[style*="max-width: 700px"] {
+    padding: 20px 16px !important;
+  }
+
+  div[style*="grid-template-columns: repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="grid-template-columns: repeat(auto-fill"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="grid-template-columns: 1fr 340px"],
+  div[style*="grid-template-columns: 1fr 320px"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Event management backend meta data",
+  "license": "ISC",
+  "author": "Khaswrang Debbarma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^149.0.0",
+    "axios": "^1.14.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.0",
+    "nodemon": "^3.1.11",
+    "puppeteer": "^25.1.0",
+    "puppeteer-core": "^25.1.0",
+    "qrcode": "^1.5.4",
+    "resend": "^6.12.4"
+  }
+}
