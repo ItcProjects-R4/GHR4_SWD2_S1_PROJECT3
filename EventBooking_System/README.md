@@ -6,8 +6,6 @@ EventBooking is a modern full-stack web application that streamlines the process
 
 ---
 ## 🎥 Video Demo
-
-**Project Demo Video:**  
 ▶️ [Click to watch the Demo](https://drive.google.com/file/d/1IBd58q3EsYwRaPMNyqMqL2DjVuUJBk48/view?usp=drive_link)
 
 ## ✨ Features
