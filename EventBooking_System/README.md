@@ -5,6 +5,10 @@
 EventBooking is a modern full-stack web application that streamlines the process of event management and ticket booking. The platform allows users to discover events, reserve tickets, and download QR code-based digital tickets, while organizers can create and manage events, verify attendees through QR scanning, and monitor event participation.
 
 ---
+## 🎥 Video Demo
+
+**Project Demo Video:**  
+▶️ [Click to watch the Demo](https://drive.google.com/file/d/1IBd58q3EsYwRaPMNyqMqL2DjVuUJBk48/view?usp=drive_link)
 
 ## ✨ Features
 
